@@ -1,0 +1,639 @@
+﻿{
+  "Scenario": "Regression",
+  "DataSource": {
+    "Type": "TabularFile",
+    "Version": 1,
+    "FilePath": "C:\\Users\\Caspe\\Desktop\\TORM Maren ML\\Scrubber Data v1 - Simplified.csv",
+    "Delimiter": ";",
+    "DecimalMarker": ",",
+    "HasHeader": true,
+    "ColumnProperties": [
+      {
+        "ColumnName": "Timestamp (GPS - UTC)",
+        "ColumnPurpose": "Feature",
+        "ColumnDataFormat": "String",
+        "IsCategorical": false,
+        "Type": "Column",
+        "Version": 4
+      },
+      {
+        "ColumnName": "Aux1FuelIndexAIi_input",
+        "ColumnPurpose": "Feature",
+        "ColumnDataFormat": "Single",
+        "IsCategorical": false,
+        "Type": "Column",
+        "Version": 4
+      },
+      {
+        "ColumnName": "Aux2FuelIndexAIi_input",
+        "ColumnPurpose": "Feature",
+        "ColumnDataFormat": "Single",
+        "IsCategorical": false,
+        "Type": "Column",
+        "Version": 4
+      },
+      {
+        "ColumnName": "Aux3FuelIndexAIi_input",
+        "ColumnPurpose": "Feature",
+        "ColumnDataFormat": "Single",
+        "IsCategorical": true,
+        "Type": "Column",
+        "Version": 4
+      },
+      {
+        "ColumnName": "MEFuelIndexAIi_input",
+        "ColumnPurpose": "Feature",
+        "ColumnDataFormat": "Single",
+        "IsCategorical": false,
+        "Type": "Column",
+        "Version": 4
+      },
+      {
+        "ColumnName": "BoilerAux1lFuelIndexAIi_input",
+        "ColumnPurpose": "Feature",
+        "ColumnDataFormat": "Single",
+        "IsCategorical": true,
+        "Type": "Column",
+        "Version": 4
+      },
+      {
+        "ColumnName": "SB9_2EGPT1AIi",
+        "ColumnPurpose": "Feature",
+        "ColumnDataFormat": "Single",
+        "IsCategorical": false,
+        "Type": "Column",
+        "Version": 4
+      },
+      {
+        "ColumnName": "SB9_2EGPT2AIi",
+        "ColumnPurpose": "Feature",
+        "ColumnDataFormat": "Single",
+        "IsCategorical": false,
+        "Type": "Column",
+        "Version": 4
+      },
+      {
+        "ColumnName": "SB9_2EGPT3AIi",
+        "ColumnPurpose": "Feature",
+        "ColumnDataFormat": "Single",
+        "IsCategorical": false,
+        "Type": "Column",
+        "Version": 4
+      },
+      {
+        "ColumnName": "SB9_2EGPT4AIi",
+        "ColumnPurpose": "Feature",
+        "ColumnDataFormat": "Single",
+        "IsCategorical": false,
+        "Type": "Column",
+        "Version": 4
+      },
+      {
+        "ColumnName": "SB9_2EGPT5AIi",
+        "ColumnPurpose": "Feature",
+        "ColumnDataFormat": "Single",
+        "IsCategorical": false,
+        "Type": "Column",
+        "Version": 4
+      },
+      {
+        "ColumnName": "NETWAOutletTT31AIi",
+        "ColumnPurpose": "Feature",
+        "ColumnDataFormat": "Single",
+        "IsCategorical": false,
+        "Type": "Column",
+        "Version": 4
+      },
+      {
+        "ColumnName": "SB3_1PT2_1AIi",
+        "ColumnPurpose": "Feature",
+        "ColumnDataFormat": "Single",
+        "IsCategorical": false,
+        "Type": "Column",
+        "Version": 4
+      },
+      {
+        "ColumnName": "SB3_1FT2_1AIi",
+        "ColumnPurpose": "Feature",
+        "ColumnDataFormat": "Single",
+        "IsCategorical": false,
+        "Type": "Column",
+        "Version": 4
+      },
+      {
+        "ColumnName": "SB3_1LT5_1AIi",
+        "ColumnPurpose": "Feature",
+        "ColumnDataFormat": "Single",
+        "IsCategorical": false,
+        "Type": "Column",
+        "Version": 4
+      },
+      {
+        "ColumnName": "SB3_1LT6_1AIi",
+        "ColumnPurpose": "Feature",
+        "ColumnDataFormat": "Single",
+        "IsCategorical": false,
+        "Type": "Column",
+        "Version": 4
+      },
+      {
+        "ColumnName": "SB3_1PDT1_1AIi",
+        "ColumnPurpose": "Feature",
+        "ColumnDataFormat": "Single",
+        "IsCategorical": false,
+        "Type": "Column",
+        "Version": 4
+      },
+      {
+        "ColumnName": "SB3_1TT5_1AIi",
+        "ColumnPurpose": "Feature",
+        "ColumnDataFormat": "Single",
+        "IsCategorical": false,
+        "Type": "Column",
+        "Version": 4
+      },
+      {
+        "ColumnName": "SB3_1TT6_1AIi",
+        "ColumnPurpose": "Feature",
+        "ColumnDataFormat": "Single",
+        "IsCategorical": false,
+        "Type": "Column",
+        "Version": 4
+      },
+      {
+        "ColumnName": "SB3_1TT7_1AIi",
+        "ColumnPurpose": "Feature",
+        "ColumnDataFormat": "Single",
+        "IsCategorical": false,
+        "Type": "Column",
+        "Version": 4
+      },
+      {
+        "ColumnName": "PF2_1a_FrqCurrRaw",
+        "ColumnPurpose": "Feature",
+        "ColumnDataFormat": "Single",
+        "IsCategorical": false,
+        "Type": "Column",
+        "Version": 4
+      },
+      {
+        "ColumnName": "PF2_1a_Eprw",
+        "ColumnPurpose": "Feature",
+        "ColumnDataFormat": "Single",
+        "IsCategorical": false,
+        "Type": "Column",
+        "Version": 4
+      },
+      {
+        "ColumnName": "PF2_1a_Spd",
+        "ColumnPurpose": "Feature",
+        "ColumnDataFormat": "Single",
+        "IsCategorical": false,
+        "Type": "Column",
+        "Version": 4
+      },
+      {
+        "ColumnName": "PF2_1b_FrqCurrRaw",
+        "ColumnPurpose": "Feature",
+        "ColumnDataFormat": "Single",
+        "IsCategorical": false,
+        "Type": "Column",
+        "Version": 4
+      },
+      {
+        "ColumnName": "PF2_1b_Eprw",
+        "ColumnPurpose": "Feature",
+        "ColumnDataFormat": "Single",
+        "IsCategorical": false,
+        "Type": "Column",
+        "Version": 4
+      },
+      {
+        "ColumnName": "PF2_1b_Spd",
+        "ColumnPurpose": "Feature",
+        "ColumnDataFormat": "Single",
+        "IsCategorical": false,
+        "Type": "Column",
+        "Version": 4
+      },
+      {
+        "ColumnName": "NETEGARatioAIi",
+        "ColumnPurpose": "Feature",
+        "ColumnDataFormat": "Single",
+        "IsCategorical": false,
+        "Type": "Column",
+        "Version": 4
+      },
+      {
+        "ColumnName": "NETWAOutletPAHT31AIi",
+        "ColumnPurpose": "Feature",
+        "ColumnDataFormat": "Single",
+        "IsCategorical": false,
+        "Type": "Column",
+        "Version": 4
+      },
+      {
+        "ColumnName": "NETWAOutletpHT31AIi",
+        "ColumnPurpose": "Label",
+        "ColumnDataFormat": "Single",
+        "IsCategorical": false,
+        "Type": "Column",
+        "Version": 4
+      },
+      {
+        "ColumnName": "Scrub_EGACO2Coni",
+        "ColumnPurpose": "Feature",
+        "ColumnDataFormat": "Single",
+        "IsCategorical": false,
+        "Type": "Column",
+        "Version": 4
+      },
+      {
+        "ColumnName": "Scrub_EGASO2Coni",
+        "ColumnPurpose": "Feature",
+        "ColumnDataFormat": "Single",
+        "IsCategorical": false,
+        "Type": "Column",
+        "Version": 4
+      },
+      {
+        "ColumnName": "NETWAInletTUET30AIi",
+        "ColumnPurpose": "Feature",
+        "ColumnDataFormat": "Single",
+        "IsCategorical": false,
+        "Type": "Column",
+        "Version": 4
+      },
+      {
+        "ColumnName": "NETWAInletpHT30AIi",
+        "ColumnPurpose": "Feature",
+        "ColumnDataFormat": "Single",
+        "IsCategorical": true,
+        "Type": "Column",
+        "Version": 4
+      }
+    ]
+  },
+  "Environment": {
+    "Type": "LocalCPU",
+    "Version": 1
+  },
+  "RunHistory": {
+    "Version": 3,
+    "Type": "Result",
+    "Trials": [
+      {
+        "Version": 1,
+        "Type": "Trial",
+        "TrainerName": "LightGbmRegression",
+        "Score": 0.77144742919691345,
+        "RuntimeInSeconds": 0.104,
+        "Parameter": {
+          "_SCHEMA_": "e0 * e1 * e2 * e5",
+          "e0": {
+            "OutputColumnNames": [
+              "Aux1FuelIndexAIi_input",
+              "Aux2FuelIndexAIi_input",
+              "Aux3FuelIndexAIi_input",
+              "MEFuelIndexAIi_input",
+              "BoilerAux1lFuelIndexAIi_input",
+              "SB9_2EGPT1AIi",
+              "SB9_2EGPT2AIi",
+              "SB9_2EGPT3AIi",
+              "SB9_2EGPT4AIi",
+              "SB9_2EGPT5AIi",
+              "NETWAOutletTT31AIi",
+              "SB3_1PT2_1AIi",
+              "SB3_1FT2_1AIi",
+              "SB3_1LT5_1AIi",
+              "SB3_1LT6_1AIi",
+              "SB3_1PDT1_1AIi",
+              "SB3_1TT5_1AIi",
+              "SB3_1TT6_1AIi",
+              "SB3_1TT7_1AIi",
+              "PF2_1a_FrqCurrRaw",
+              "PF2_1a_Eprw",
+              "PF2_1a_Spd",
+              "PF2_1b_FrqCurrRaw",
+              "PF2_1b_Eprw",
+              "PF2_1b_Spd",
+              "NETEGARatioAIi",
+              "NETWAOutletPAHT31AIi",
+              "Scrub_EGACO2Coni",
+              "Scrub_EGASO2Coni",
+              "NETWAInletTUET30AIi",
+              "NETWAInletpHT30AIi"
+            ],
+            "InputColumnNames": [
+              "Aux1FuelIndexAIi_input",
+              "Aux2FuelIndexAIi_input",
+              "Aux3FuelIndexAIi_input",
+              "MEFuelIndexAIi_input",
+              "BoilerAux1lFuelIndexAIi_input",
+              "SB9_2EGPT1AIi",
+              "SB9_2EGPT2AIi",
+              "SB9_2EGPT3AIi",
+              "SB9_2EGPT4AIi",
+              "SB9_2EGPT5AIi",
+              "NETWAOutletTT31AIi",
+              "SB3_1PT2_1AIi",
+              "SB3_1FT2_1AIi",
+              "SB3_1LT5_1AIi",
+              "SB3_1LT6_1AIi",
+              "SB3_1PDT1_1AIi",
+              "SB3_1TT5_1AIi",
+              "SB3_1TT6_1AIi",
+              "SB3_1TT7_1AIi",
+              "PF2_1a_FrqCurrRaw",
+              "PF2_1a_Eprw",
+              "PF2_1a_Spd",
+              "PF2_1b_FrqCurrRaw",
+              "PF2_1b_Eprw",
+              "PF2_1b_Spd",
+              "NETEGARatioAIi",
+              "NETWAOutletPAHT31AIi",
+              "Scrub_EGACO2Coni",
+              "Scrub_EGASO2Coni",
+              "NETWAInletTUET30AIi",
+              "NETWAInletpHT30AIi"
+            ]
+          },
+          "e1": {
+            "InputColumnName": "Timestamp (GPS - UTC)",
+            "OutputColumnName": "Timestamp (GPS - UTC)"
+          },
+          "e2": {
+            "InputColumnNames": [
+              "Aux1FuelIndexAIi_input",
+              "Aux2FuelIndexAIi_input",
+              "Aux3FuelIndexAIi_input",
+              "MEFuelIndexAIi_input",
+              "BoilerAux1lFuelIndexAIi_input",
+              "SB9_2EGPT1AIi",
+              "SB9_2EGPT2AIi",
+              "SB9_2EGPT3AIi",
+              "SB9_2EGPT4AIi",
+              "SB9_2EGPT5AIi",
+              "NETWAOutletTT31AIi",
+              "SB3_1PT2_1AIi",
+              "SB3_1FT2_1AIi",
+              "SB3_1LT5_1AIi",
+              "SB3_1LT6_1AIi",
+              "SB3_1PDT1_1AIi",
+              "SB3_1TT5_1AIi",
+              "SB3_1TT6_1AIi",
+              "SB3_1TT7_1AIi",
+              "PF2_1a_FrqCurrRaw",
+              "PF2_1a_Eprw",
+              "PF2_1a_Spd",
+              "PF2_1b_FrqCurrRaw",
+              "PF2_1b_Eprw",
+              "PF2_1b_Spd",
+              "NETEGARatioAIi",
+              "NETWAOutletPAHT31AIi",
+              "Scrub_EGACO2Coni",
+              "Scrub_EGASO2Coni",
+              "NETWAInletTUET30AIi",
+              "NETWAInletpHT30AIi",
+              "Timestamp (GPS - UTC)"
+            ],
+            "OutputColumnName": "Features"
+          },
+          "e5": {
+            "NumberOfLeaves": 4,
+            "MinimumExampleCountPerLeaf": 20,
+            "LearningRate": 1.0,
+            "NumberOfTrees": 4,
+            "SubsampleFraction": 1.0,
+            "MaximumBinCountPerFeature": 254,
+            "FeatureFraction": 1.0,
+            "L1Regularization": 2E-10,
+            "L2Regularization": 1.0,
+            "LabelColumnName": "NETWAOutletpHT31AIi",
+            "FeatureColumnName": "Features"
+          },
+          "e3": {
+            "NumberOfLeaves": 4,
+            "MinimumExampleCountPerLeaf": 20,
+            "NumberOfTrees": 4,
+            "MaximumBinCountPerFeature": 255,
+            "FeatureFraction": 1.0,
+            "LearningRate": 0.099999999999999978,
+            "LabelColumnName": "NETWAOutletpHT31AIi",
+            "FeatureColumnName": "Features"
+          },
+          "e4": {
+            "NumberOfTrees": 4,
+            "NumberOfLeaves": 4,
+            "FeatureFraction": 1.0,
+            "LabelColumnName": "NETWAOutletpHT31AIi",
+            "FeatureColumnName": "Features"
+          },
+          "e6": {
+            "L1Regularization": 1.0,
+            "L2Regularization": 1.0,
+            "LabelColumnName": "NETWAOutletpHT31AIi",
+            "FeatureColumnName": "Features"
+          },
+          "e7": {
+            "L1Regularization": 1.0,
+            "L2Regularization": 0.1,
+            "LabelColumnName": "NETWAOutletpHT31AIi",
+            "FeatureColumnName": "Features"
+          }
+        }
+      },
+      {
+        "Version": 1,
+        "Type": "Trial",
+        "TrainerName": "FastForestRegression",
+        "Score": 0.74616033503883639,
+        "RuntimeInSeconds": 0.464,
+        "Parameter": {
+          "_SCHEMA_": "e0 * e1 * e2 * e4",
+          "e0": {
+            "OutputColumnNames": [
+              "Aux1FuelIndexAIi_input",
+              "Aux2FuelIndexAIi_input",
+              "Aux3FuelIndexAIi_input",
+              "MEFuelIndexAIi_input",
+              "BoilerAux1lFuelIndexAIi_input",
+              "SB9_2EGPT1AIi",
+              "SB9_2EGPT2AIi",
+              "SB9_2EGPT3AIi",
+              "SB9_2EGPT4AIi",
+              "SB9_2EGPT5AIi",
+              "NETWAOutletTT31AIi",
+              "SB3_1PT2_1AIi",
+              "SB3_1FT2_1AIi",
+              "SB3_1LT5_1AIi",
+              "SB3_1LT6_1AIi",
+              "SB3_1PDT1_1AIi",
+              "SB3_1TT5_1AIi",
+              "SB3_1TT6_1AIi",
+              "SB3_1TT7_1AIi",
+              "PF2_1a_FrqCurrRaw",
+              "PF2_1a_Eprw",
+              "PF2_1a_Spd",
+              "PF2_1b_FrqCurrRaw",
+              "PF2_1b_Eprw",
+              "PF2_1b_Spd",
+              "NETEGARatioAIi",
+              "NETWAOutletPAHT31AIi",
+              "Scrub_EGACO2Coni",
+              "Scrub_EGASO2Coni",
+              "NETWAInletTUET30AIi",
+              "NETWAInletpHT30AIi"
+            ],
+            "InputColumnNames": [
+              "Aux1FuelIndexAIi_input",
+              "Aux2FuelIndexAIi_input",
+              "Aux3FuelIndexAIi_input",
+              "MEFuelIndexAIi_input",
+              "BoilerAux1lFuelIndexAIi_input",
+              "SB9_2EGPT1AIi",
+              "SB9_2EGPT2AIi",
+              "SB9_2EGPT3AIi",
+              "SB9_2EGPT4AIi",
+              "SB9_2EGPT5AIi",
+              "NETWAOutletTT31AIi",
+              "SB3_1PT2_1AIi",
+              "SB3_1FT2_1AIi",
+              "SB3_1LT5_1AIi",
+              "SB3_1LT6_1AIi",
+              "SB3_1PDT1_1AIi",
+              "SB3_1TT5_1AIi",
+              "SB3_1TT6_1AIi",
+              "SB3_1TT7_1AIi",
+              "PF2_1a_FrqCurrRaw",
+              "PF2_1a_Eprw",
+              "PF2_1a_Spd",
+              "PF2_1b_FrqCurrRaw",
+              "PF2_1b_Eprw",
+              "PF2_1b_Spd",
+              "NETEGARatioAIi",
+              "NETWAOutletPAHT31AIi",
+              "Scrub_EGACO2Coni",
+              "Scrub_EGASO2Coni",
+              "NETWAInletTUET30AIi",
+              "NETWAInletpHT30AIi"
+            ]
+          },
+          "e1": {
+            "InputColumnName": "Timestamp (GPS - UTC)",
+            "OutputColumnName": "Timestamp (GPS - UTC)"
+          },
+          "e2": {
+            "InputColumnNames": [
+              "Aux1FuelIndexAIi_input",
+              "Aux2FuelIndexAIi_input",
+              "Aux3FuelIndexAIi_input",
+              "MEFuelIndexAIi_input",
+              "BoilerAux1lFuelIndexAIi_input",
+              "SB9_2EGPT1AIi",
+              "SB9_2EGPT2AIi",
+              "SB9_2EGPT3AIi",
+              "SB9_2EGPT4AIi",
+              "SB9_2EGPT5AIi",
+              "NETWAOutletTT31AIi",
+              "SB3_1PT2_1AIi",
+              "SB3_1FT2_1AIi",
+              "SB3_1LT5_1AIi",
+              "SB3_1LT6_1AIi",
+              "SB3_1PDT1_1AIi",
+              "SB3_1TT5_1AIi",
+              "SB3_1TT6_1AIi",
+              "SB3_1TT7_1AIi",
+              "PF2_1a_FrqCurrRaw",
+              "PF2_1a_Eprw",
+              "PF2_1a_Spd",
+              "PF2_1b_FrqCurrRaw",
+              "PF2_1b_Eprw",
+              "PF2_1b_Spd",
+              "NETEGARatioAIi",
+              "NETWAOutletPAHT31AIi",
+              "Scrub_EGACO2Coni",
+              "Scrub_EGASO2Coni",
+              "NETWAInletTUET30AIi",
+              "NETWAInletpHT30AIi",
+              "Timestamp (GPS - UTC)"
+            ],
+            "OutputColumnName": "Features"
+          },
+          "e4": {
+            "NumberOfTrees": 4,
+            "NumberOfLeaves": 4,
+            "FeatureFraction": 1.0,
+            "LabelColumnName": "NETWAOutletpHT31AIi",
+            "FeatureColumnName": "Features"
+          },
+          "e3": {
+            "NumberOfLeaves": 4,
+            "MinimumExampleCountPerLeaf": 20,
+            "NumberOfTrees": 4,
+            "MaximumBinCountPerFeature": 255,
+            "FeatureFraction": 1.0,
+            "LearningRate": 0.099999999999999978,
+            "LabelColumnName": "NETWAOutletpHT31AIi",
+            "FeatureColumnName": "Features"
+          },
+          "e5": {
+            "NumberOfLeaves": 4,
+            "MinimumExampleCountPerLeaf": 20,
+            "LearningRate": 1.0,
+            "NumberOfTrees": 4,
+            "SubsampleFraction": 1.0,
+            "MaximumBinCountPerFeature": 255,
+            "FeatureFraction": 1.0,
+            "L1Regularization": 2E-10,
+            "L2Regularization": 1.0,
+            "LabelColumnName": "NETWAOutletpHT31AIi",
+            "FeatureColumnName": "Features"
+          },
+          "e6": {
+            "L1Regularization": 1.0,
+            "L2Regularization": 1.0,
+            "LabelColumnName": "NETWAOutletpHT31AIi",
+            "FeatureColumnName": "Features"
+          },
+          "e7": {
+            "L1Regularization": 1.0,
+            "L2Regularization": 0.1,
+            "LabelColumnName": "NETWAOutletpHT31AIi",
+            "FeatureColumnName": "Features"
+          }
+        }
+      }
+    ],
+    "Estimators": {
+      "e0": "ReplaceMissingValues",
+      "e1": "FeaturizeText",
+      "e2": "Concatenate",
+      "e3": "FastTreeRegression",
+      "e4": "FastForestRegression",
+      "e5": "LightGbmRegression",
+      "e6": "LbfgsPoissonRegressionRegression",
+      "e7": "SdcaRegression"
+    },
+    "Schema": "e0 * e1 * e2 * (e3 + e4 + e5 + e6 + e7)",
+    "MetricName": "RSquared",
+    "ModelFilePath": "C:\\Users\\Caspe\\Documents\\GitHub\\machinelearning-samples\\samples\\csharp\\getting-started\\BinaryClassification_HeartDiseaseDetection\\HeartDiseaseDetection\\HeartDiseaseDetection\\Scrubber\\MLModel1.mlnet"
+  },
+  "Type": "TrainingConfig",
+  "Version": 4,
+  "TrainingOption": {
+    "Version": 0,
+    "Type": "RegressionTrainingOption",
+    "TrainingTime": 10,
+    "OptimizeMetric": "RSquared",
+    "LabelColumn": "NETWAOutletpHT31AIi",
+    "AvailableTrainers": [
+      "SDCA",
+      "LBFGS",
+      "LGBM",
+      "FASTTREE",
+      "FASTFOREST"
+    ],
+    "Seed": 0
+  }
+}
